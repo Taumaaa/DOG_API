@@ -12,7 +12,7 @@ Cette application interroge l'API publique [Dog CEO](https://dog.ceo/dog-api/) p
 1. Clonez ce dépôt :
 
    ```bash
-   git clone https://votre-lien-depot.git
+   git clone https://github.com/Taumaaa/DOG_API.git
    cd votre-lien-depot
 2. Installer les dépendances :
 
