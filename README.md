@@ -12,8 +12,8 @@ Cette application interroge l'API publique [Dog CEO](https://dog.ceo/dog-api/) p
 1. Clonez ce dépôt :
 
    ```bash
-   git clone https://github.com/Taumaaa/DOG_API.git
-   cd DOG_API.git
+   git clone https://github.com/Taumaaa/ue19-lab-05.git
+   cd ue19-lab-05
 2. Installer les dépendances :
 
    ```bash
