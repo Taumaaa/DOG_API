@@ -23,6 +23,16 @@ jobs:
     - name: Build the Docker image
       run: docker build -t ghcr.io/taumaaa/ue19-lab-05:latest .
 
+    - name: Wait before retrying Trivy scan
+      run: |
+        echo "Waiting for 30 seconds before retrying the scan..."
+        sleep 30  # Attendre 30 secondes avant de réessayer le scan
+      
+    - name: Scan the Docker image with Trivy
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: ghcr.io/taumaaa/ue19-lab-05:latest
+
     - name: Push the Docker image
       run: docker push ghcr.io/taumaaa/ue19-lab-05:latest
       
