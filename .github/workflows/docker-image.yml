@@ -29,3 +29,5 @@ jobs:
 
     - name: Push the Docker image
       run: docker push github.com/taumaaa/ue19-lab-05:latest
+
+      
